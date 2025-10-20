@@ -1,0 +1,124 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 0,
+    "start": "2025-10-16T21:41:47.408Z",
+    "end": "2025-10-16T21:41:54.795Z",
+    "duration": 7387,
+    "testsRegistered": 2,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "d8c54db8-f57a-4994-9d65-f4e1fd3584fe",
+      "title": "",
+      "fullFile": "cypress\\integration\\firstBasicTestSuite.js",
+      "file": "cypress\\integration\\firstBasicTestSuite.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "0ba442f4-1224-4c3a-93c2-0b2e9d55a0ec",
+          "title": "First Basic Testing",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "TC 1 url and assertion",
+              "fullTitle": "First Basic Testing TC 1 url and assertion",
+              "timedOut": null,
+              "duration": 1580,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": "{\n  \"title\": \"cypress-mochawesome-reporter-videos-passed\",\n  \"value\": \"cypress\\\\integration\\\\firstBasicTestSuite.js\"\n}",
+              "code": "cy.visit('https://rahulshettyacademy.com/loginpagePractise/');\ncy.url().should('include', 'loginpagePractise');\ncy.url().should('eq', 'https://rahulshettyacademy.com/loginpagePractise/');\ncy.url().should('contain', 'rahulshettyacademy');\ncy.get('#username').type('Somenath');\ncy.get('#signInBtn').click();\ncy.get('[style*=\"block\"]').should('be.visible');",
+              "err": {},
+              "uuid": "1863db02-5778-41a4-ab98-6d2fce345f39",
+              "parentUUID": "0ba442f4-1224-4c3a-93c2-0b2e9d55a0ec",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "TC 2 Basic Login",
+              "fullTitle": "First Basic Testing TC 2 Basic Login",
+              "timedOut": null,
+              "duration": 1694,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": "{\n  \"title\": \"cypress-mochawesome-reporter-videos-passed\",\n  \"value\": \"cypress\\\\integration\\\\firstBasicTestSuite.js\"\n}",
+              "code": "cy.visit('https://rahulshettyacademy.com/loginpagePractise/');\ncy.url().should('include', 'loginpagePractise');\ncy.url().should('eq', 'https://rahulshettyacademy.com/loginpagePractise/');\ncy.url().should('contain', 'rahulshettyacademy');\ncy.get('#username').type('rahulshettyacademy');\ncy.get('#password').type('learning');\ncy.get('#signInBtn').click();\ncy.screenshot();",
+              "err": {},
+              "uuid": "7fc7d53b-acb5-4db7-860e-54cac4219815",
+              "parentUUID": "0ba442f4-1224-4c3a-93c2-0b2e9d55a0ec",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "1863db02-5778-41a4-ab98-6d2fce345f39",
+            "7fc7d53b-acb5-4db7-860e-54cac4219815"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 3274,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.2.0"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.4"
+    },
+    "marge": {
+      "options": {
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "reportDir": "cypress\\reports\\html\\.jsons"
+      },
+      "version": "6.3.0"
+    }
+  }
+}

@@ -1,15 +1,15 @@
 {
   "stats": {
     "suites": 1,
-    "tests": 2,
+    "tests": 1,
     "passes": 1,
     "pending": 0,
-    "failures": 1,
-    "start": "2025-10-11T14:45:09.280Z",
-    "end": "2025-10-11T14:46:19.582Z",
-    "duration": 70302,
-    "testsRegistered": 2,
-    "passPercent": 50,
+    "failures": 0,
+    "start": "2025-10-16T21:41:24.825Z",
+    "end": "2025-10-16T21:41:32.067Z",
+    "duration": 7242,
+    "testsRegistered": 1,
+    "passPercent": 100,
     "pendingPercent": 0,
     "other": 0,
     "hasOther": false,
@@ -18,73 +18,49 @@
   },
   "results": [
     {
-      "uuid": "1a79c41c-2e2c-4741-b4c8-44780ab3c8d1",
+      "uuid": "958f31e0-7465-4be2-bf3b-5f5d224a32a3",
       "title": "",
-      "fullFile": "cypress\\integration\\firstBasicTestSuite.js",
-      "file": "cypress\\integration\\firstBasicTestSuite.js",
+      "fullFile": "cypress\\integration\\codeGenratioByCypressStudio.js",
+      "file": "cypress\\integration\\codeGenratioByCypressStudio.js",
       "beforeHooks": [],
       "afterHooks": [],
       "tests": [],
       "suites": [
         {
-          "uuid": "9d0df0a8-73d0-40c8-ae6f-fa8c2cd2b645",
-          "title": "First Basic Testing",
+          "uuid": "7db1f839-360e-4207-a4a8-e5d0667ab508",
+          "title": "First AI Cypress Studio Code Generatio",
           "fullFile": "",
           "file": "",
           "beforeHooks": [],
           "afterHooks": [],
           "tests": [
             {
-              "title": "TC 1 url and assertion",
-              "fullTitle": "First Basic Testing TC 1 url and assertion",
+              "title": "TC 1 ",
+              "fullTitle": "First AI Cypress Studio Code Generatio TC 1 ",
               "timedOut": null,
-              "duration": 1972,
+              "duration": 3264,
               "state": "passed",
               "speed": "fast",
               "pass": true,
               "fail": false,
               "pending": false,
-              "context": "{\n  \"title\": \"cypress-mochawesome-reporter-videos-passed\",\n  \"value\": \"cypress\\\\integration\\\\firstBasicTestSuite.js\"\n}",
-              "code": "cy.visit('https://rahulshettyacademy.com/loginpagePractise/');\ncy.url().should('include', 'loginpagePractise');\ncy.url().should('eq', 'https://rahulshettyacademy.com/loginpagePractise/');\ncy.url().should('contain', 'rahulshettyacademy');\ncy.get('#username').type('Somenath');\ncy.get('#signInBtn').click();\ncy.get('[style*=\"block\"]').should('be.visible');",
+              "context": "{\n  \"title\": \"cypress-mochawesome-reporter-videos-passed\",\n  \"value\": \"cypress\\\\integration\\\\codeGenratioByCypressStudio.js\"\n}",
+              "code": "cy.visit('https://rahulshettyacademy.com/angularpractice/');\ncy.get('input[minlength=\"2\"]').click();\ncy.get('input[minlength=\"2\"]').type('Somenath');\ncy.get('[name=\"email\"]').type('Gorai');\ncy.get('#exampleInputPassword1').click();\ncy.get('#exampleInputPassword1').type('sdfasdf');\ncy.get('#exampleCheck1').check();\ncy.get('#inlineRadio2').check();\ncy.get('[name=\"bday\"]').click();\ncy.get('[name=\"bday\"]').click();\ncy.get('input.btn').click();",
               "err": {},
-              "uuid": "71e08943-cc95-4f3d-91f4-3c486f15397f",
-              "parentUUID": "9d0df0a8-73d0-40c8-ae6f-fa8c2cd2b645",
-              "isHook": false,
-              "skipped": false
-            },
-            {
-              "title": "TC 2 Basic Login",
-              "fullTitle": "First Basic Testing TC 2 Basic Login",
-              "timedOut": null,
-              "duration": 64989,
-              "state": "failed",
-              "speed": null,
-              "pass": false,
-              "fail": true,
-              "pending": false,
-              "context": "{\n  \"title\": \"cypress-mochawesome-reporter-videos-failed\",\n  \"value\": \"cypress\\\\integration\\\\firstBasicTestSuite.js\"\n}",
-              "code": "cy.visit('https://rahulshettyacademy.com/loginpagePractise/');\ncy.url().should('include', 'loginpagePractise');\ncy.url().should('eq', 'https://rahulshettyacademy.com/loginpagePractise/');\ncy.url().should('contain', 'rahulshettyacademy');\ncy.get('#username').type('rahulshettyacademy');\ncy.get('#password').type('learning');\ncy.get('#signInBtn').click();\ncy.screenshot();",
-              "err": {
-                "message": "CypressError: Timed out after waiting `60000ms` for your remote page to load.\n\nYour page did not fire its `load` event within `60000ms`.\n\nYou can try increasing the `pageLoadTimeout` value in `Users\\shaws\\Desktop\\IT_Professional_Projects\\cypressBasics\\cypress.config.js` to wait longer.\n\nBrowsers will not fire the `load` event until all stylesheets and scripts are done downloading.\n\nWhen this `load` event occurs, Cypress will continue running commands.",
-                "estack": "CypressError: Timed out after waiting `60000ms` for your remote page to load.\n\nYour page did not fire its `load` event within `60000ms`.\n\nYou can try increasing the `pageLoadTimeout` value in `Users\\shaws\\Desktop\\IT_Professional_Projects\\cypressBasics\\cypress.config.js` to wait longer.\n\nBrowsers will not fire the `load` event until all stylesheets and scripts are done downloading.\n\nWhen this `load` event occurs, Cypress will continue running commands.\n    at timedOutWaitingForPageLoad (https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:133344:64)\n    at <unknown> (https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:133660:16)\n    at tryCatcher (https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:1777:23)\n    at <unknown> (https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:4156:41)\n    at tryCatcher (https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:1777:23)\n    at Promise._settlePromiseFromHandler (https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:1489:31)\n    at Promise._settlePromise (https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:1546:18)\n    at Promise._settlePromise0 (https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:1591:10)\n    at Promise._settlePromises (https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:1667:18)\n    at _drainQueueStep (https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:2377:12)\n    at _drainQueue (https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:2370:9)\n    at Async._drainQueues (https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:2386:5)\n    at Async.drainQueues (https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:2256:14)",
-                "diff": null
-              },
-              "uuid": "84492260-e542-4f78-9f1d-8cbe451a6217",
-              "parentUUID": "9d0df0a8-73d0-40c8-ae6f-fa8c2cd2b645",
+              "uuid": "d01c8ced-4340-4fcc-9bb1-3310b61a34d2",
+              "parentUUID": "7db1f839-360e-4207-a4a8-e5d0667ab508",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "71e08943-cc95-4f3d-91f4-3c486f15397f"
+            "d01c8ced-4340-4fcc-9bb1-3310b61a34d2"
           ],
-          "failures": [
-            "84492260-e542-4f78-9f1d-8cbe451a6217"
-          ],
+          "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 66961,
+          "duration": 3264,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
