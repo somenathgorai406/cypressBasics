@@ -7,6 +7,16 @@ module.exports = defineConfig({
   screenshotsFolder: 'cypress/screenshots',
   videosFolder: 'cypress/videos',
   reporter: 'cypress-mochawesome-reporter',
+  reporterOptions: {
+    reportDir: 'cypress/reports',
+    charts: true,
+    reportPageTitle: 'Cypress Mochawesome Report',
+    embeddedScreenshots: true,
+    inlineAssets: true,
+    saveAllAttempts: false,
+    html: true, //to generate HTML report
+    json: true //to generate JSON report
+  },
 
 
   e2e: {

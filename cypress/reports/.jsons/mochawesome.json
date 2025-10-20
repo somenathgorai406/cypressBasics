@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2025-10-16T21:41:24.825Z",
-    "end": "2025-10-16T21:41:32.067Z",
-    "duration": 7242,
+    "start": "2025-10-20T13:41:35.784Z",
+    "end": "2025-10-20T13:41:40.696Z",
+    "duration": 4912,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "958f31e0-7465-4be2-bf3b-5f5d224a32a3",
+      "uuid": "10abddc2-f616-4467-94df-5e5c1e230b78",
       "title": "",
       "fullFile": "cypress\\integration\\codeGenratioByCypressStudio.js",
       "file": "cypress\\integration\\codeGenratioByCypressStudio.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "7db1f839-360e-4207-a4a8-e5d0667ab508",
+          "uuid": "c458cead-9aa4-4209-9c85-63bf7ad3e049",
           "title": "First AI Cypress Studio Code Generatio",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "TC 1 ",
               "fullTitle": "First AI Cypress Studio Code Generatio TC 1 ",
               "timedOut": null,
-              "duration": 3264,
+              "duration": 2459,
               "state": "passed",
               "speed": "fast",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": "{\n  \"title\": \"cypress-mochawesome-reporter-videos-passed\",\n  \"value\": \"cypress\\\\integration\\\\codeGenratioByCypressStudio.js\"\n}",
               "code": "cy.visit('https://rahulshettyacademy.com/angularpractice/');\ncy.get('input[minlength=\"2\"]').click();\ncy.get('input[minlength=\"2\"]').type('Somenath');\ncy.get('[name=\"email\"]').type('Gorai');\ncy.get('#exampleInputPassword1').click();\ncy.get('#exampleInputPassword1').type('sdfasdf');\ncy.get('#exampleCheck1').check();\ncy.get('#inlineRadio2').check();\ncy.get('[name=\"bday\"]').click();\ncy.get('[name=\"bday\"]').click();\ncy.get('input.btn').click();",
               "err": {},
-              "uuid": "d01c8ced-4340-4fcc-9bb1-3310b61a34d2",
-              "parentUUID": "7db1f839-360e-4207-a4a8-e5d0667ab508",
+              "uuid": "8ca4d91b-8728-4b4a-995c-bd8da33aceb7",
+              "parentUUID": "c458cead-9aa4-4209-9c85-63bf7ad3e049",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "d01c8ced-4340-4fcc-9bb1-3310b61a34d2"
+            "8ca4d91b-8728-4b4a-995c-bd8da33aceb7"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 3264,
+          "duration": 2459,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
@@ -94,10 +94,15 @@
     },
     "marge": {
       "options": {
-        "overwrite": false,
+        "reportDir": "cypress\\reports\\.jsons",
+        "charts": true,
+        "reportPageTitle": "Cypress Mochawesome Report",
+        "embeddedScreenshots": true,
+        "inlineAssets": true,
+        "saveAllAttempts": false,
         "html": false,
         "json": true,
-        "reportDir": "cypress\\reports\\html\\.jsons"
+        "overwrite": false
       },
       "version": "6.3.0"
     }
