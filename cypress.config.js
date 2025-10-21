@@ -13,7 +13,7 @@ module.exports = defineConfig({
     reportPageTitle: 'Cypress Mochawesome Report',
     embeddedScreenshots: true,
     inlineAssets: true,
-    saveAllAttempts: false,
+    saveAllAttempts: true,
     html: true, //to generate HTML report
     json: true //to generate JSON report
   },
